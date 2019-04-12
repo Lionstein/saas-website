@@ -1,6 +1,6 @@
 html {
   font-family: "Open Sans", sans-serif;
-  background-color: #D6F0FF;
+  background-color: #d6f0ff;
 }
 
 h1 {
@@ -16,8 +16,8 @@ h1 {
 }
 
 .btn {
-  background-color: #000;
-  color: #fff;
+  background-color: #fff;
+  color: #000;
 }
 
 .form {
@@ -25,7 +25,7 @@ h1 {
 }
 
 .btn:hover {
-  background-color: #D6F0FF;
+  background-color: #d6f0ff;
 }
 
 .box {
@@ -72,7 +72,7 @@ h1 {
 }
 
 tbody tr:nth-child(odd) {
-  background-color: #D6F0FF;
+  background-color: #d6f0ff;
 }
 
 tbody tr:nth-child(even) {
@@ -81,6 +81,17 @@ tbody tr:nth-child(even) {
 
 table {
   min-width: 50em;
+}
+
+.card {
+  background-color: #ede3db;
+  border: 2px solid #623b0c;
+  border-radius: 8px;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
 }
 
 @media only screen and (min-width: 60em) {
