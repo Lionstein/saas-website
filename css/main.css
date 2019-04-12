@@ -1,0 +1,97 @@
+html {
+  font-family: "Open Sans", sans-serif;
+  background-color: #f2f2f2;
+}
+
+h1 {
+  border-bottom: 1px solid #000;
+}
+
+.c {
+  text-align: center;
+}
+
+.bord {
+  border-color: #000;
+}
+
+.btn {
+  background-color: #000;
+  color: #fff;
+}
+
+.form {
+  background-color: #fff;
+}
+
+.btn:hover {
+  background-color: #f2f2f2;
+}
+
+.box {
+  border-color: #000;
+}
+
+.current {
+  background-color: #b20953;
+}
+
+.ia:hover {
+  background-color: #cc1465;
+}
+
+.ia {
+  width: 100%;
+  text-decoration: none;
+  color: #fff;
+  padding: .2em .5em .3em;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #b2a212;
+}
+
+.iul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.ili {
+  display: inline-block;
+  margin-bottom: .3em;
+}
+
+.inav {
+  font-family: Georgia, serif;
+  font-size: 1.125rem;
+  color: #b2a212;
+  text-align: center;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #e2e2e2;
+}
+
+table {
+  min-width: 50em;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .name {
+    padding-right: 1rem;
+  }
+
+  .table-wrapper {
+    overflow: visible;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  .name {
+    padding-right: 1rem;
+  }
+
+}
