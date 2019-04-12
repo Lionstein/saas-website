@@ -12,7 +12,7 @@
 <body>
 
   <header>
-    <h1>Hermes</h1>
+    <h1 class="zetta">Hermes</h1>
     <nav class="inav">
       <ul class="iul grid">
         <li class="ili unit unit-xs-1-4 s-1-4 m-1-4 l-1-4"><a class="ia" href="index.html">Home</a></li>
@@ -23,51 +23,53 @@
     </nav>
   </header>
 
-  <form class="form max-length island" method="POST" action="https://formspree.io/norq0002@algonquincollege.com">
-    <h1 class="bord pad-t">Want to join Hermes?</h1>
-    <p class="mega">Experience the new communication platform for all. From casual use to business suites, we have Hermes packages that are made for everyone.</p>
-    <fieldset>
-      <legend class="push italic mega">Personal details</legend>
-      <div class="grid">
-        <div class="unit name push xs-1 s-1 m-1 l-1-2 xl-1-2">
-          <label for="name">Name</label>
-          <input class="box" id="name" name="name" required>
+  <main>
+    <form class="form max-length island" method="POST" action="https://formspree.io/norq0002@algonquincollege.com">
+      <h2 class="bord pad-t">Want to join Hermes?</h2>
+      <p class="mega">Experience the new communication platform for all. From casual use to business suites, we have Hermes packages that are made for everyone.</p>
+      <fieldset>
+        <legend class="push italic mega">Personal details</legend>
+        <div class="grid">
+          <div class="unit name push xs-1 s-1 m-1 l-1-2 xl-1-2">
+            <label for="name">Name</label>
+            <input class="box" id="name" name="name" required>
+          </div>
+          <div class="unit push xs-1 s-1 m-1 l-1-2 xl-1-2">
+            <label for="age">Age</label>
+            <input class="box" id="age" name="age">
+          </div>
+          <div class="unit name push xs-1 s-1 m-1 l-1-2 xl-1-2">
+            <label for="email">Email</label>
+            <input class="box" id="email" name="email">
+          </div>
+          <div class="unit push xs-1 s-1 m-1 l-1-2 xl-1-2">
+            <label for="fitness">Type of use</label>
+            <select class="box" id="fitness" name="fitness">
+              <option>Casual</option>
+              <option>Business</option>
+              <option>International</option>
+              <option>Office Suite</option>
+            </select>
+          </div>
         </div>
-        <div class="unit push xs-1 s-1 m-1 l-1-2 xl-1-2">
-          <label for="age">Age</label>
-          <input class="box" id="age" name="age">
+        <div>
+          <label for="address">Address</label>
+          <textarea class="box" id="address" name="Address" required></textarea>
         </div>
-        <div class="unit name push xs-1 s-1 m-1 l-1-2 xl-1-2">
-          <label for="email">Email</label>
-          <input class="box" id="email" name="email">
+      </fieldset>
+      <fieldset>
+        <legend>Business statement</legend>
+        <div class="push">
+          <label for="mars">Anything else we should know??</label>
+          <textarea class="box" id="mars" name="Why?"></textarea>
         </div>
-        <div class="unit push xs-1 s-1 m-1 l-1-2 xl-1-2">
-          <label for="fitness">Type of use</label>
-          <select class="box" id="fitness" name="fitness">
-            <option>Casual</option>
-            <option>Business</option>
-            <option>International</option>
-            <option>Office Suite</option>
-          </select>
+        <div class="text-center">
+          <button class="btn" type="submit">Register for Hermes now!</button>
         </div>
-      </div>
-      <div>
-        <label for="address">Address</label>
-        <textarea class="box" id="address" name="Address" required></textarea>
-      </div>
-    </fieldset>
-    <fieldset>
-      <legend>Business statement</legend>
-      <div class="push">
-        <label for="mars">Anything else we should know??</label>
-        <textarea class="box" id="mars" name="Why?"></textarea>
-      </div>
-      <div class="text-center">
-        <button class="btn" type="submit">Register for Hermes now!</button>
-      </div>
-    </fieldset>
-    <input type="hidden" name="_subject" value="Request to join the mission">
-  </form>
+      </fieldset>
+      <input type="hidden" name="_subject" value="Request to join the mission">
+    </form>
+  </main>
 
   <footer>
     <small class="c">© Hermes.</small>
