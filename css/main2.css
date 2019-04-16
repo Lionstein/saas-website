@@ -1,0 +1,119 @@
+html {
+  font-family: "Open Sans", sans-serif;
+  background-color: #000;
+}
+
+h1 {
+  border-bottom: 1px solid #000;
+}
+
+h2 {
+  color: #fff;
+}
+
+.c {
+  text-align: center;
+}
+
+.bord {
+  border-color: #000;
+}
+
+.btn {
+  background-color: #fff;
+  color: #000;
+}
+
+.form {
+  background-color: #fff;
+}
+
+.btn:hover {
+  background-color: #d6f0ff;
+}
+
+.box {
+  border-color: #000;
+}
+
+.current {
+  background-color: #b20953;
+}
+
+.ia:hover {
+  background-color: #cc1465;
+}
+
+.ia {
+  width: 100%;
+  text-decoration: none;
+  color: #fff;
+  padding: .2em .5em .3em;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #4b27e8;
+}
+
+.iul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.ili {
+  display: inline-block;
+  margin-bottom: .3em;
+}
+
+.inav {
+  font-family: Georgia, serif;
+  color: #4b27e8;
+  text-align: center;
+}
+
+.nav a:focus {
+  outline-color: #000;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #d6f0ff;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #fff;
+}
+
+table {
+  min-width: 50em;
+}
+
+.card {
+  background-color: #ede3db;
+  border: 2px solid #623b0c;
+  border-radius: 8px;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .name {
+    padding-right: 1rem;
+  }
+
+  .table-wrapper {
+    overflow: visible;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  .name {
+    padding-right: 1rem;
+  }
+
+}
