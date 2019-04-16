@@ -5,6 +5,7 @@ html {
 
 h1 {
   border-bottom: 1px solid #000;
+  color: #101010;
 }
 
 h2 {
@@ -17,6 +18,10 @@ h2 {
 
 .bord {
   border-color: #000;
+}
+
+footer {
+  color: #111111;
 }
 
 .btn {
@@ -37,11 +42,11 @@ h2 {
 }
 
 .current {
-  background-color: #b20953;
+  background-color: #ff0d22;
 }
 
 .ia:hover {
-  background-color: #cc1465;
+  background-color: #ff4600;
 }
 
 .ia {
@@ -51,7 +56,7 @@ h2 {
   padding: .2em .5em .3em;
   display: inline-block;
   border-radius: 4px;
-  background-color: #4b27e8;
+  background-color: #111111;
 }
 
 .iul {
