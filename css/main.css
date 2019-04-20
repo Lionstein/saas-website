@@ -16,8 +16,8 @@ h1 {
 }
 
 .btn {
-  background-color: #fff;
-  color: #000;
+  background-color: #67baff;
+  color: #fff;
 }
 
 .form {
@@ -25,7 +25,7 @@ h1 {
 }
 
 .btn:hover {
-  background-color: #d6f0ff;
+  background-color: #000;
 }
 
 .box {
@@ -47,7 +47,7 @@ h1 {
   padding: .2em .5em .3em;
   display: inline-block;
   border-radius: 4px;
-  background-color: #4b27e8;
+  background-color: #67baff;
 }
 
 .iul {
@@ -63,7 +63,7 @@ h1 {
 
 .inav {
   font-family: Georgia, serif;
-  color: #4b27e8;
+  color: #67baff;
   text-align: center;
 }
 
@@ -84,8 +84,8 @@ table {
 }
 
 .card {
-  background-color: #ede3db;
-  border: 2px solid #623b0c;
+  background-color: #cde7fe;
+  border: 2px solid #000;
   border-radius: 8px;
 }
 
